@@ -7,8 +7,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0rem;
-  background-color: black;
-  color: white;
 }
 .hero {
   font-size: 44px;
@@ -39,8 +37,6 @@ span {
   width: 80%;
   padding: 1rem;
   border: 2px solid var(--primary-color);
-  background-color: black;
-  color: white;
   font-family: inherit;
   font-size: medium;
 }
@@ -51,8 +47,6 @@ span {
   align-items: center;
 }
 #translate-btn {
-  background-color: black;
-  color: white;
   border: 3px solid var(--secondary-color);
   margin: 0.7rem;
   padding: 0.3rem;
@@ -75,15 +69,15 @@ small {
   margin: 0rem 1rem;
 }
 
-footer{
-    text-align: center;
-    padding: auto;
+footer {
+  text-align: center;
+  padding: auto;
 }
 
-a{
-    text-decoration: none;
-    color: var(--primary-color);
-    font-weight: bold;
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -94,18 +88,18 @@ a{
     font-size: 20px;
     margin: 0rem 4rem;
   }
-  #input-txt, #output {
-      height: 15vh;
-
+  #input-txt,
+  #output {
+    height: 15vh;
   }
-  
+
   #translate-btn:hover {
-    background-color: black;
     color: var(--primary-color);
     border: 3px solid var(--primary-color);
     cursor: pointer;
   }
 
-  a:hover{
-      color: var(--secondary-color);
+  a:hover {
+    color: var(--secondary-color);
   }
+}

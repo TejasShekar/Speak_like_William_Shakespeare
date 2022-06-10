@@ -14,9 +14,6 @@ function errorHandler(error) {
   );
 }
 function clickEventHandler() {
-  // var txtInput = inputTxt.value;
-  //The above line will grab value from textarea and assign it to a variable 'txtInput'.
-
   fetch(translateURL(inputTxt.value))
     .then((response) => response.json())
     .then((json) => {
